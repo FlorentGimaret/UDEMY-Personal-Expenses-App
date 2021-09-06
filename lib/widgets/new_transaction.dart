@@ -1,11 +1,9 @@
-import 'dart:io';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 
-import './adaptive_flat_button.dart';
+import '../widgets/adaptive_flat_button.dart';
 
 class NewTransaction extends StatefulWidget {
   final Function addTx;
